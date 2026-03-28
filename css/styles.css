@@ -300,3 +300,10 @@ a:focus-visible, button:focus-visible { outline: 3px solid var(--amber); outline
   .hero-ctas .btn-primary { animation: none; }
   .trust-bar::before { animation: none; }
 }
+
+/* ---- LAPTOP SCREEN OPTIMISATION (DRE-17) ---- */
+/* Targets 769px–1440px: standard laptop & notebook screens */
+@media (min-width: 769px) and (max-width: 1440px) {
+  .hero { min-height: min(75vh, 680px); }
+  .section { padding: 72px 0; }
+}
